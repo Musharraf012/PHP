@@ -11,6 +11,8 @@ if (isset($_REQUEST['send'])) {
     $subject = $_REQUEST['subject'];
     $message = $_REQUEST['message'];
 
+    
+
 
     if (!empty($subject) && !empty($message)) {
 
